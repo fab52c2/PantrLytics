@@ -4036,6 +4036,13 @@ async def quick_label_preview(
     title: str = Form(""),
     description: str = Form(""),
 ):
+    data = {
+        "title": title,
+        "description": description
+    }
+
+    hass.services.call("python_script", "print_pantrlytics_preview", data, False)
+
     """
     Generate a PNG preview of a Quick Label (no printing).
     Used by the Print Designer preview button.
