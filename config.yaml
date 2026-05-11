@@ -1,7 +1,7 @@
 name: PantrLytics
 version: 2026.04.02
-url: https://github.com/Psychman52OS/PantrLytics
-changelog: https://github.com/Psychman52OS/PantrLytics/blob/main/CHANGELOG.md
+url: https://github.com/fab52c2/PantrLytics
+changelog: https://github.com/fab52c2/PantrLytics/blob/main/CHANGELOG.md
 slug: pantrlytics
 description: Inventory database with on-demand label generation and IPP printing
 arch:
